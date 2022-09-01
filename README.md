@@ -30,8 +30,8 @@
 
 ### Links
 
-- Solution URL: [Unique-Tech](https://github.com/ermix3/unique-unique)
-- Live Site URL: [Live](https://ermix3.github.io/unique-unique/)
+- Solution URL: [Unique-Tech](https://github.com/ermix3/Unique-Tech)
+- Live Site URL: [Live](https://ermix3.github.io/Unique-Tech/)
 
 ## My Process
 
