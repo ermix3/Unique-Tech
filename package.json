@@ -1,0 +1,25 @@
+{
+    "name": "gulp2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build":"gulp"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-livereload": "^4.0.2",
+        "gulp-notify": "^4.0.0",
+        "gulp-pug": "^5.0.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "gulp-webp": "^4.0.1",
+        "static-server": "^2.2.1"
+    }
+}

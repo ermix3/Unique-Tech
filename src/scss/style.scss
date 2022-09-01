@@ -1,0 +1,122 @@
+/* ***************************************************************** */
+
+/* *********** AUTHOR: ERMICH REDA********************************** */
+
+/* *********** PROJET: UNIQUE TECH********************************** */
+
+/* *********** ANNEE: 2022-2021************************************* */
+
+/* *********** Encadree: NAFISSA ZERROUKI*************************** */
+
+/* ***************************************************************** */
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../fonts/Roboto-Black') format('ttf');
+}
+
+:root {
+	--first-color: rgb(255, 192, 56);
+	--seconde-color: #464646;
+	--third-color: #252525;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	background-color: var(--seconde-color);
+	margin: 6rem 0;
+	padding: 0.7rem 5.7rem;
+	border-radius: 0.3rem;
+}
+
+/* position */
+
+.fixed {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e4ab01;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 50px;
+}
+
+/* start header style  */
+
+.title {
+	width: 35%;
+}
+
+.navbar-brand {
+	color: var(--seconde-color);
+	&:hover {
+		color: white;
+	}
+}
+
+.nav-link {
+	color: var(--seconde-color);
+	&:hover {
+		color: white;
+	}
+}
+
+.navbar-brand {
+	font-family: 'Roboto - Black';
+}
+
+header,
+#home {
+	background-color: var(--first-color);
+}
+
+header a span {
+	border: 2.5px solid yellow;
+}
+
+/* start about & history style  */
+
+#about {
+	background-image: url(../image/rectangle.png);
+}
+
+#history {
+	background-image: url(../image/rectangle.png);
+}
+/* start features style  */
+
+.feature:hover {
+	background-color: var(--first-color);
+	cursor: pointer;
+}
+
+.feature:hover > i {
+	color: #fff;
+}
+
+// footer
+footer a.nav-link:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+/* overlay */
+
+.overlay::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255, 192, 56, 0.4);
+}
